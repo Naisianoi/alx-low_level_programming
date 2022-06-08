@@ -6,14 +6,14 @@
  * Return: 1 if not c and 0 if c is in lowercase
  */
 
-int _islower(char c)
+int _islower(int c)
 {
-	if (c < 97 || c > 122)
+	if (c >= 'a' && c <= 'z')
 	{
-		return (0);
+		return (1);
 	}
 	else
 	{
-		return (1);
+		return (0);
 	}
 }
