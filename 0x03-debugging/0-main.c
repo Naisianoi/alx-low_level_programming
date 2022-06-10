@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Test function for positive or negative
+ * main - test functions that print if integeris positive or negative
  * Return: 0
  */
 
